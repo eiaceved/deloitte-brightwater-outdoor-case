@@ -1,0 +1,610 @@
+[
+ {
+  "hash": "e9275e74f76cab2bb807d742e3fa2e437dee6a95",
+  "text": "Tax consulting in two minutes"
+ },
+ {
+  "hash": "72c0b8353b730d20cf321d2d9e2b33b17b63c06c",
+  "text": "Tax consulting isn't just filing returns. Teams like Deloitte Tax help companies stay compliant, plan legally around tax, and run their tax function better, with the right people, processes, and technology. This case is about that last part: tax operations."
+ },
+ {
+  "hash": "46436259cbb06957fa6ed22d34fad93f1d6226e4",
+  "text": "You don't need deep tax law for this case. It practices structuring a business problem with a tax setting: cost, risk, and scale. The basics you need are below."
+ },
+ {
+  "hash": "20ef606782ab9676136cedbf8e6e28abd629de1b",
+  "text": "Sales tax basics"
+ },
+ {
+  "hash": "2a8da08cd4cc19bc0a487928f1201178e7e063be",
+  "text": "What the client is dealing with"
+ },
+ {
+  "hash": "2c29dc7946c5efb5194d455a6b4d44c5e1f59a83",
+  "text": "A retailer collects sales tax from customers and sends it to each state."
+ },
+ {
+  "hash": "656abb8c247e30c952f856ea7f9ee4891a637232",
+  "text": "Every state has its own rates, its own rules on what's taxable, and its own filing schedule."
+ },
+ {
+  "hash": "ec4201c242f6c7d87ee36047422084612f8e81b4",
+  "text": "Since the Supreme Court's 2018 South Dakota v. Wayfair decision, states can require online sellers to collect tax once their sales in the state pass a threshold, even without a store there."
+ },
+ {
+  "hash": "722244f6ea776132b341d8ec99723e08fab7ed8d",
+  "text": "Late or wrong returns bring penalties, interest, and notices."
+ },
+ {
+  "hash": "b83b079bdf7ac3104cc51c44ef7cd8ea0820d00e",
+  "text": "What this page adds"
+ },
+ {
+  "hash": "a25f682e21085ecb05528904f680b9f44053935e",
+  "text": "Practice tools"
+ },
+ {
+  "hash": "6bae31b0e4c33bd38891b9832427c9b628ec130b",
+  "text": "Cost math for three options, this year and next."
+ },
+ {
+  "hash": "9620eb6fa8717467b9f5f486c3997dda48ffeab0",
+  "text": "A tax operations calculator."
+ },
+ {
+  "hash": "e1d9c8b7aa31a11dc2d5be7cb7385bb28be882a0",
+  "text": "An implementation risk map, tax drills, and a test."
+ },
+ {
+  "hash": "180328a92268887db4921adaac86d08af33c5103",
+  "text": "Ten terms to drop naturally"
+ },
+ {
+  "hash": "af4e061d7ccb5b6a5582f034c488b59feaf15be6",
+  "text": "Taxes on transactions, like sales tax, as opposed to income tax."
+ },
+ {
+  "hash": "fb549c4b30667436d4b5578f27ee5b389fcadd89",
+  "text": "Enough connection to a state that you must collect and file its tax."
+ },
+ {
+  "hash": "1873975f81cad5e1f6ff076d56a1d4cf8995a589",
+  "text": "Nexus created by sales volume into a state, not a physical presence. The result of Wayfair."
+ },
+ {
+  "hash": "f04469205ab969b4b7249a956dd1f4cb620d0a07",
+  "text": "Whether a product is taxed in a given state. Some states exempt certain clothing or food, for example."
+ },
+ {
+  "hash": "e2ae2aca61c443acdc5e123c6ad43682ab0883b1",
+  "text": "How often a state wants returns: monthly, quarterly, or yearly, usually based on how much tax you collect there."
+ },
+ {
+  "hash": "f6020d5d89fe46a48408c3309c2bfba5a9386cc9",
+  "text": "A letter from a state about a missing, late, or wrong return. Each one takes time to resolve."
+ },
+ {
+  "hash": "214085caf79898c155a0542e032602e244e13249",
+  "text": "Software that calculates the right tax on each sale and prepares and files returns."
+ },
+ {
+  "hash": "dc0db25d5b192fdde3c893b26db92fac57c8755d",
+  "text": "Outsourcing a process, like sales tax filing, to a provider that runs it for a fee."
+ },
+ {
+  "hash": "43f6fb0c7b68128a6dd7a2bc3131004970fa1a25",
+  "text": "Coming forward to a state about tax you should have collected in the past, usually in exchange for reduced penalties."
+ },
+ {
+  "hash": "a1c280a3cb6ee2bb9e18ac1d709424f67027187c",
+  "text": "Full-time equivalent: about 1,800 working hours a year. A way to turn hours into headcount."
+ },
+ {
+  "hash": "5897d588b37d475d6785a1e68e72448746fd0b14",
+  "text": "The case prompt"
+ },
+ {
+  "hash": "2bea13779f71b068910e9a84f9544399623b1804",
+  "text": "Interviewer"
+ },
+ {
+  "hash": "0b596681f8038d1eccb57951ff0fe168003319c9",
+  "text": "Brightwater Outdoor sells outdoor gear online, with about 300 million dollars in sales, growing 25 percent a year. It now collects sales tax in 28 states. Its three-person tax team files every return by hand, using spreadsheets."
+ },
+ {
+  "hash": "4f6c8632ce0f88bd2b17b127d66ea51ec688c851",
+  "text": "Last year it paid 240 thousand dollars in penalties and interest and got notices from 6 states. It expects to register in 12 more states next year. The CFO asks: should we keep doing this ourselves, buy tax software, or outsource it to a managed service?"
+ },
+ {
+  "hash": "fd6b9a72cdeb88f2284e9a39081ac2b134e6bf03",
+  "text": "Restate the question in one sentence before you do anything else."
+ },
+ {
+  "hash": "8e6d2ad9575dc9f3cfc886c2260b8fefc6fde36e",
+  "text": "Clarifying questions"
+ },
+ {
+  "hash": "13450c79bddb46c93cf046218d4de1c86a619bc2",
+  "text": "Ask two or three clarifying questions. Pick ones whose answers would change your recommendation."
+ },
+ {
+  "hash": "5c1d378cfc64d50c7f119b2c2db5a1f3712a570a",
+  "text": "Build the framework"
+ },
+ {
+  "hash": "2bea13779f71b068910e9a84f9544399623b1804",
+  "text": "Interviewer"
+ },
+ {
+  "hash": "47b3e1fdc3baa021acddffb50a7a3d38d5a51760",
+  "text": "How would you approach the CFO's question?"
+ },
+ {
+  "hash": "5073090f973daee10874dd03b34f8a3f6d36c346",
+  "text": "Take 60 seconds. Diagnose today, compare the options, then cover implementation and risk."
+ },
+ {
+  "hash": "1ffa92211ba185e214325721ff442edd697e0fa8",
+  "text": "Exhibit 1: what it costs today"
+ },
+ {
+  "hash": "2bea13779f71b068910e9a84f9544399623b1804",
+  "text": "Interviewer"
+ },
+ {
+  "hash": "c2bb963597392cb23676bce3eda7246d47d6ed0f",
+  "text": "Brightwater files monthly in 16 states and quarterly in 12. Here's how long each return takes by hand. The team's time costs about 70 dollars an hour, fully loaded. What does sales tax compliance cost today?"
+ },
+ {
+  "hash": "62ce1d2bdca6b43246d70f656fc5cc82e856efe2",
+  "text": "Total: about 6 hours per return. Most errors start in the rate and taxability step. Source: case data."
+ },
+ {
+  "hash": "f9a61f1b53380e0242ac855bd38c922ab42168b8",
+  "text": "Count the returns first. Then hours, labor cost, and penalties."
+ },
+ {
+  "hash": "2762c0d58ae4d38f6dc1acef9b7200f3c0cbbc9f",
+  "text": "Quick check: the CFO suggests hiring one more tax analyst. Why isn't that the full answer?"
+ },
+ {
+  "hash": "087d14f64d9ff5827868934e62629ed244547ff5",
+  "text": "Exhibit 2: the three options"
+ },
+ {
+  "hash": "2bea13779f71b068910e9a84f9544399623b1804",
+  "text": "Interviewer"
+ },
+ {
+  "hash": "1e20aa94c97b9eee154d05e6b36efdcd0dd83fe6",
+  "text": "Here are quotes and estimates for the two alternatives. Which option costs the least this year?"
+ },
+ {
+  "hash": "1f5cfb2532fd29792070c753063a567871e1c120",
+  "text": "Keep in-house"
+ },
+ {
+  "hash": "c755d85077806519d30794c3a93609c833cf6d4d",
+  "text": "Tax software"
+ },
+ {
+  "hash": "abf1b8ce42eaf59c11bc9c0c7d44ef57f102fb82",
+  "text": "Managed service"
+ },
+ {
+  "hash": "4f873ceffe27c0598550934990b2774e30403e74",
+  "text": "Software automates rate lookups, return prep, and filing. The managed service handles everything and covers penalties caused by its own errors."
+ },
+ {
+  "hash": "aa729e1ef2ac1ceb7777da28709bba5c5263fa51",
+  "text": "Build each option's yearly cost from the same three pieces: fee, team hours, and penalties."
+ },
+ {
+  "hash": "d7771bd796c2ab1ce84d6c22f3579cdaba865196",
+  "text": "Does the answer hold at 40 states?"
+ },
+ {
+  "hash": "2bea13779f71b068910e9a84f9544399623b1804",
+  "text": "Interviewer"
+ },
+ {
+  "hash": "29a5ad32bd507069b0795e9a0e012190a17f2ef1",
+  "text": "Next year Brightwater will file about 350 returns in 40 states. The current team is at capacity, so staying in-house means hiring one more person at about 100 thousand dollars. Software moves to a 120 thousand dollar license tier, and the managed service charges 340 thousand above 300 returns. What's the picture next year?"
+ },
+ {
+  "hash": "305506259ce01215e529900ea45cf0cf603549d7",
+  "text": "Redo each option at 350 returns. Keep the same hours per return and penalty rates."
+ },
+ {
+  "hash": "b52f1bc1b6e3881eb77eb54d089509a73de77bc5",
+  "text": "Software is cheapest at 28 states and at 40. Staying in-house gets expensive fastest, because penalties grow with every return."
+ },
+ {
+  "hash": "f9b51f08981539c990ad8596da608ca50d5313cb",
+  "text": "Tax operations calculator"
+ },
+ {
+  "hash": "830542e476b689f428cbd319f2d6dec6ffc29484",
+  "text": "Starts with next year's numbers. Try fewer penalties, or a cheaper managed service."
+ },
+ {
+  "hash": "381dbcbb797b68bc03f1d653ab8b092ba5c9d97d",
+  "text": "Score the implementation risks"
+ },
+ {
+  "hash": "2bea13779f71b068910e9a84f9544399623b1804",
+  "text": "Interviewer"
+ },
+ {
+  "hash": "2c1df036470e98da168fc5be305de17c84636ee9",
+  "text": "Say the CFO picks software. Here are six risks to the rollout. Score each for likelihood and impact. Which three would you manage first?"
+ },
+ {
+  "hash": "8f9226d2308946e5f1058ed7f9e3cfcab6bb35ce",
+  "text": "Your dots appear here as you score each risk."
+ },
+ {
+  "hash": "ac0c8b91dbe4f5417af13f174c932cf546a9de50",
+  "text": "Pick L (likelihood) and I (impact): 1 is low, 5 is high."
+ },
+ {
+  "hash": "3cfced29667347a2e79b97d5dfcf7a7ae4ac4808",
+  "text": "Score all six to see your top three."
+ },
+ {
+  "hash": "7ecd0267fcc8b747a6a59738fed833770568bf68",
+  "text": "Score = likelihood \u00d7 impact. Scores are yours to set."
+ },
+ {
+  "hash": "7f398feb0d9686df49cbccc6c613ce2967586334",
+  "text": "Score each risk with a one-line reason, then name your top three and how you'd handle each."
+ },
+ {
+  "hash": "e384f9f7d0838bb158b1bf92f6497fe11cdb2928",
+  "text": "The recommendation"
+ },
+ {
+  "hash": "2bea13779f71b068910e9a84f9544399623b1804",
+  "text": "Interviewer"
+ },
+ {
+  "hash": "55f59e42a3c0218396dcf3f358ff673a2d96cb4f",
+  "text": "The CFO has 2 minutes before her board meeting. What do you tell her?"
+ },
+ {
+  "hash": "c05521759312ebc9672b545ae8fd81604df31e2a",
+  "text": "Lead with the answer. Then the numbers, the main risk, and next steps."
+ },
+ {
+  "hash": "7b91a2d5ecd903677e2b02ed0746edba7a5d4690",
+  "text": "Bonus drills: tax math"
+ },
+ {
+  "hash": "63481c81bec40d9ad56a5a8b7900f81e7847c39d",
+  "text": "Quick reps"
+ },
+ {
+  "hash": "bb11ea7a7aa2c10315934796251f940ed609bee6",
+  "text": "1. A customer buys an 80 dollar jacket in a state with a 7.25 percent sales tax. How much tax?"
+ },
+ {
+  "hash": "0e61d4e63f09927a3bf6cbbe79d30ca35f4ddd54",
+  "text": "2. A company has 40 million of pre-tax income and 10 million of income tax expense. What's its effective tax rate?"
+ },
+ {
+  "hash": "cfdea73204b2bdf6447cc4deec68d4ad89dc8f9c",
+  "text": "3. A process takes 2,700 hours a year. About how many full-time people is that?"
+ },
+ {
+  "hash": "0252d2b1a850f31e6995d6577035a2bf2e484f18",
+  "text": "4. Each return has a 5 percent chance of a 4 thousand dollar penalty. What's the expected penalty on 300 returns?"
+ },
+ {
+  "hash": "0eda8d77e34cad93e11bc25b2cb5cd229ba79178",
+  "text": "Practice test"
+ },
+ {
+  "hash": "53576cc6cd320d3de94a9e71fb4328577da97084",
+  "text": "Twelve multiple-choice questions on the Brightwater case. Pick an answer to see the explanation."
+ },
+ {
+  "hash": "d525548f59ac31a46e24c3ebba751cc603d607d7",
+  "text": "Strong answer"
+ },
+ {
+  "hash": "7d0b01ab6561c5d129a0b1c5f27226cf2cbab918",
+  "text": "\"So the CFO wants to choose the best way to handle sales tax compliance, in-house, software, or outsourced, based on cost, accuracy, and whether it can scale from 28 to 40 states. Is that right?\""
+ },
+ {
+  "hash": "bf008775e0360f13c05fbf191a14c4ed28d558be",
+  "text": "Interviewer: \"Yes.\" Naming the three criteria, cost, accuracy, and scale, gives you a scorecard for the whole case."
+ },
+ {
+  "hash": "07bb13454b4ad758e463dec0fb29157e3a669fd3",
+  "text": "Strong questions, with the interviewer's answers"
+ },
+ {
+  "hash": "072487df940fecdff08283b75ea418eff284ce09",
+  "text": "What matters most to the CFO: cost, accuracy, or something else? Accuracy first, since penalties and notices worry the board. Then cost. She'd rather not add headcount."
+ },
+ {
+  "hash": "ab4313d89977a34a9654f6886250a1c31d70b80a",
+  "text": "How quickly does a solution need to be in place? Within about 6 months, before the new states start."
+ },
+ {
+  "hash": "28bb9759701f106f5988cd56e78f269b382446e8",
+  "text": "Where does the sales data come from? An e-commerce platform. The team exports it to spreadsheets each month."
+ },
+ {
+  "hash": "6c39779db238d6414de7c8551e954c4fbd57d663",
+  "text": "Were there states where Brightwater should have registered earlier? Yes, the team thinks it registered late in a few states."
+ },
+ {
+  "hash": "59c97c84b647c4fd6d04d0b8f747d4974f6d929f",
+  "text": "The last question is the tax consultant's instinct: late registration can mean past tax that was never collected. That's a separate risk to fix, often through voluntary disclosure."
+ },
+ {
+  "hash": "7945cefa89a1794e79a31316c3ed524225b41a5a",
+  "text": "Strong framework"
+ },
+ {
+  "hash": "7759d440fdb63dd88758638728eba4b1a85e0b14",
+  "text": "Returns, hours, and cost"
+ },
+ {
+  "hash": "dd1b3c3f648b5f07f99f2c11253908f151bf81eb",
+  "text": "Errors, penalties, notices"
+ },
+ {
+  "hash": "8b5c407df5e178aa2a9ccd2a203e298a2220d07b",
+  "text": "Root causes"
+ },
+ {
+  "hash": "d792034eb6641b499cd9fc1f43d036ff8e4ede20",
+  "text": "Cost now and at 40 states"
+ },
+ {
+  "hash": "a3d0246c1a87492ef05ee5dcfba136061c200bc1",
+  "text": "Accuracy and risk"
+ },
+ {
+  "hash": "d1e786ecb79d4fb6a6c294ab276fb9cde19008ea",
+  "text": "Control and scalability"
+ },
+ {
+  "hash": "f3e79d1857fee2a7bea0c46e56797295f23c8e54",
+  "text": "Data cleanup and integration"
+ },
+ {
+  "hash": "63998c418a13636cc7f1fa5d125592c31fd5c7a3",
+  "text": "Team skills and change"
+ },
+ {
+  "hash": "8f642a8c5d89a519a4e8c007278a2aae14dc3138",
+  "text": "6-month timeline"
+ },
+ {
+  "hash": "636208f88600386e2863b2dc1e151b199c918d07",
+  "text": "Late registrations"
+ },
+ {
+  "hash": "1b2793c14b4ebd78e23aa1014f02261a80af93e8",
+  "text": "Uncollected tax"
+ },
+ {
+  "hash": "90e5556861233bf2a8c1b4474627b5b925efe320",
+  "text": "Voluntary disclosure"
+ },
+ {
+  "hash": "891f8b94c7459a349db8c3dbeedf17e43b709565",
+  "text": "Say it like this"
+ },
+ {
+  "hash": "e07fbd68eabf38d42624f838a7fcdea7516da723",
+  "text": "\"I'd look at four things. First, today: how many returns, how many hours, and what's causing the errors and penalties. Second, the options: cost this year and at 40 states, plus accuracy, control, and how well each scales. Third, implementation: what each option needs in data, systems, and people within 6 months. Fourth, past exposure: if Brightwater registered late anywhere, it may owe tax it never collected, which needs fixing whichever option we pick. I'd start with today's costs.\""
+ },
+ {
+  "hash": "2e4580536b0f2359910adb76e50ba348f206ca0a",
+  "text": "Why it works"
+ },
+ {
+  "hash": "e7b45ce2c5fcffb237896589357f1e76011160e3",
+  "text": "It compares options on the CFO's criteria, not just price."
+ },
+ {
+  "hash": "91e5475a72231d0dda1bdad1ce115162e16d5579",
+  "text": "It looks one year ahead, because the client is growing fast."
+ },
+ {
+  "hash": "d2df8905550a23ca09e8df3988221345617a6eb7",
+  "text": "The fourth branch shows tax judgment beyond the question that was asked."
+ },
+ {
+  "hash": "40d4c4947e0d36444d3665e25e86d92ed2a8b684",
+  "text": "Step 1. Returns a year. 16 states times 12 months is 192. 12 states times 4 quarters is 48. Together, 240 returns."
+ },
+ {
+  "hash": "e3b9bfbca659c843fc7709c21b06ffbe8cadbb5f",
+  "text": "Step 2. Hours. 240 returns times 6 hours is 1,440 hours, about 0.8 of a full-time person."
+ },
+ {
+  "hash": "eac416894d625544fcfbe6e78d5a19d01554672b",
+  "text": "Step 3. Labor. 1,440 hours times 70 dollars is about 101 thousand dollars."
+ },
+ {
+  "hash": "51b702ea3ae4bf814e87e9ae3b1b1a0b6e979af7",
+  "text": "Step 4. Penalties and interest. 240 thousand dollars, about 1 thousand dollars a return."
+ },
+ {
+  "hash": "5367ab6a3bf1dda8c226c9aa19fe042bfb128772",
+  "text": "Step 5. Total. About 341 thousand dollars a year, and 70 percent of it is penalties."
+ },
+ {
+  "hash": "aa198e13ca6f6ff79fcbb1f1c9e95066400645e8",
+  "text": "Step 6. So what. The real problem is errors, not labor. The fix has to improve accuracy, especially rate and taxability lookups, not just save time."
+ },
+ {
+  "hash": "897699a276c33d314af24dbd1063ed0530189b7e",
+  "text": "Labor is only about 30 percent of today's cost. A manual process with more people still makes rate and taxability errors, and the volume grows by almost half next year."
+ },
+ {
+  "hash": "d48220a2b162d77166d1c0f3ef2fd8ef67ea55de",
+  "text": "Step 1. Keep in-house. About 101 thousand of labor plus 240 thousand of penalties, about 341 thousand."
+ },
+ {
+  "hash": "83b22d709b9b0363a07adf8765f1970f52c01b21",
+  "text": "Step 2. Software. 96 thousand license. 240 returns times 1.5 hours times 70 dollars is about 25 thousand of labor. Penalties down 80 percent, to 48 thousand. Total about 169 thousand."
+ },
+ {
+  "hash": "299acb7e77baeb748087202402aa1bb4fbdeebd9",
+  "text": "Step 3. Managed service. 250 thousand fee. 200 review hours times 70 is 14 thousand. Penalties down 90 percent, to 24 thousand. Total about 288 thousand."
+ },
+ {
+  "hash": "18025bfe8fc206b6c6eabb24ba3d821d709293a2",
+  "text": "Step 4. Savings. Software saves about 172 thousand a year. The managed service saves about 53 thousand."
+ },
+ {
+  "hash": "f33377aed1f015d3be754d19bf59764dbc6b4023",
+  "text": "Step 5. Payback on the software setup. 60 thousand divided by 172 thousand a year is about a third of a year, roughly 4 months."
+ },
+ {
+  "hash": "a20ada9441d7a1556ed9a2908cf159cde397c096",
+  "text": "Hint: penalties scale with returns"
+ },
+ {
+  "hash": "28a1b6bd2fd256636f27eb91bae712772a8d5b9b",
+  "text": "Today's penalty rate is about 1 thousand dollars per return. At 350 returns, staying in-house means about 350 thousand of penalties. Software cuts that by 80 percent, the managed service by 90."
+ },
+ {
+  "hash": "cca25ebb81e49fa6541029c46479da8e3fdcb0dd",
+  "text": "Step 1. In-house. 350 returns times 6 hours times 70 dollars is 147 thousand, plus a 100 thousand hire, plus 350 thousand of penalties. About 597 thousand."
+ },
+ {
+  "hash": "1663e3c4570519c47b1c51ce7d8f458582c125f0",
+  "text": "Step 2. Software. 120 thousand license, plus 350 times 1.5 hours times 70, about 37 thousand, plus 70 thousand of penalties. About 227 thousand."
+ },
+ {
+  "hash": "a872a2b1d07071f8c6e8bdc40164c5b73486054d",
+  "text": "Step 3. Managed service. 340 thousand, plus about 20 thousand of review, plus 35 thousand of penalties. About 395 thousand."
+ },
+ {
+  "hash": "13a49659f24ca90bdc85cb7b1ca7e5f2901e451a",
+  "text": "Step 4. So what. Software stays cheapest, and the gap widens: in-house costs grow about 75 percent with 46 percent more returns, while software grows about a third. Software scales best."
+ },
+ {
+  "hash": "78ad2f061ee756222f933c1d8809b5fe279edeee",
+  "text": "The team's scores, with reasons"
+ },
+ {
+  "hash": "891f8b94c7459a349db8c3dbeedf17e43b709565",
+  "text": "Say it like this"
+ },
+ {
+  "hash": "fbb0ba826652156a4b46479948fa141f0bbdf6b6",
+  "text": "\"First, messy product data: software is only as accurate as the taxability codes behind each product, so we clean those before go-live. Second, past exposure from late registrations: we review it now and use voluntary disclosure where it makes sense, because automation doesn't fix the past. Third, integration with the e-commerce platform: it's the critical path for the 6-month deadline, so we start it first and keep the manual process running until the new one is tested.\""
+ },
+ {
+  "hash": "f304fc09854cd1992da02d930a01e41ad2979723",
+  "text": "Good answer"
+ },
+ {
+  "hash": "714d1f694bebfaf5a3a17bf048aad123dcf0b180",
+  "text": "\"Buy the tax software. It costs about 169 thousand a year against 341 thousand today, and it pays back its setup cost in about 4 months.\""
+ },
+ {
+  "hash": "0e338b626a79340f2208a5516abc2981c1ee12fb",
+  "text": "Better answer"
+ },
+ {
+  "hash": "a64700effff3cef610a9f31ee10abb48b094073d",
+  "text": "\"Buy the tax software, and fix the past at the same time. Today's problem is accuracy: 70 percent of the cost is penalties. Software cuts the total from about 341 thousand to about 169 thousand this year, and next year, at 40 states, it costs about 227 thousand against nearly 600 thousand for staying in-house, with no new hire. It pays back in about 4 months.\""
+ },
+ {
+  "hash": "6a436d087b9dee981c88b823dab40b2eba7391f6",
+  "text": "\"The managed service is accurate but costs about 170 thousand more a year at 40 states, and it takes control away from the team.\""
+ },
+ {
+  "hash": "abf7174d03f2fb028db893162fe966cd609258a8",
+  "text": "\"Two things to get right: clean the product taxability data before go-live, and review the states where Brightwater registered late, using voluntary disclosure to limit penalties. Next steps: pick a vendor within 30 days, start the platform integration, and run both processes side by side for one filing cycle.\""
+ },
+ {
+  "hash": "2e4008758c413ad7d7e948ef867c5cb68d20eabb",
+  "text": "The good answer is right on cost. The better answer adds scale, the past-exposure issue a tax professional would catch, and a safe way to switch over."
+ },
+ {
+  "hash": "6accd855ae4dbc60fd3c74bbfe15b78d727e1f40",
+  "text": "\"5.80 dollars. 7 percent is 5.60 and 0.25 percent is 0.20.\""
+ },
+ {
+  "hash": "630cb75d27bcd13b87d2c96ecf461df898791142",
+  "text": "\"25 percent. Tax expense divided by pre-tax income.\""
+ },
+ {
+  "hash": "88084b58120b0f970ce200b9a171a9ce40a9a79e",
+  "text": "\"About 1.5. 2,700 divided by 1,800 hours a year.\""
+ },
+ {
+  "hash": "b1d17ef0293201821270433c8705dc8b56bb5666",
+  "text": "\"60 thousand dollars. 300 times 5 percent is 15 penalties, times 4 thousand.\""
+ },
+ {
+  "hash": "344ac555ff9f65ad11687adc2851c33867695bfd",
+  "text": "Step 1. Returns a year. 16 states times 12 months is 192. 12 states times 4 quarters is 48. Together, 240 returns."
+ },
+ {
+  "hash": "225fa5ddd5608370aa427259a0a755ba2e4987c2",
+  "text": "Step 2. Hours. 240 returns times 6 hours is 1,440 hours, about 0.8 of a full-time person."
+ },
+ {
+  "hash": "080a6b6560f38f7bcfd5b9d97a3740ed40f77fb2",
+  "text": "Step 3. Labor. 1,440 hours times 70 dollars is about 101 thousand dollars."
+ },
+ {
+  "hash": "682bfb69331a4ecda4caf133f89daa52e12cca25",
+  "text": "Step 4. Penalties and interest. 240 thousand dollars, about 1 thousand dollars a return."
+ },
+ {
+  "hash": "49dd40aaac5a6a6992d9ceb7cfb274bc84369385",
+  "text": "Step 5. Total. About 341 thousand dollars a year, and 70 percent of it is penalties."
+ },
+ {
+  "hash": "49e25be7a9bb5eae89d16322bf226d21094606e5",
+  "text": "Step 6. So what. The real problem is errors, not labor. The fix has to improve accuracy, especially rate and taxability lookups, not just save time."
+ },
+ {
+  "hash": "903c01d3dc0675ea9c75dbcd8c9f900ac78a8624",
+  "text": "Step 1. Keep in-house. About 101 thousand of labor plus 240 thousand of penalties, about 341 thousand."
+ },
+ {
+  "hash": "085eca559f89fc1001a6fa0fc01db7c89f0377c1",
+  "text": "Step 2. Software. 96 thousand license. 240 returns times 1.5 hours times 70 dollars is about 25 thousand of labor. Penalties down 80 percent, to 48 thousand. Total about 169 thousand."
+ },
+ {
+  "hash": "f8d47d8fcfaf84f78fd893174d1b7a4c47c8e9ec",
+  "text": "Step 3. Managed service. 250 thousand fee. 200 review hours times 70 is 14 thousand. Penalties down 90 percent, to 24 thousand. Total about 288 thousand."
+ },
+ {
+  "hash": "2be38cdcad073e713924c8488df8c0d6f70999a3",
+  "text": "Step 4. Savings. Software saves about 172 thousand a year. The managed service saves about 53 thousand."
+ },
+ {
+  "hash": "2770c61f64d264384103c86e36d15afbd984d4e5",
+  "text": "Step 5. Payback on the software setup. 60 thousand divided by 172 thousand a year is about a third of a year, roughly 4 months."
+ },
+ {
+  "hash": "04ae22f5d3bca4de3dc08b83200a5beb75584a76",
+  "text": "Step 1. In-house. 350 returns times 6 hours times 70 dollars is 147 thousand, plus a 100 thousand hire, plus 350 thousand of penalties. About 597 thousand."
+ },
+ {
+  "hash": "859e4846fe758fb2952fdef6b26aa3a5061bfe72",
+  "text": "Step 2. Software. 120 thousand license, plus 350 times 1.5 hours times 70, about 37 thousand, plus 70 thousand of penalties. About 227 thousand."
+ },
+ {
+  "hash": "e23844f479772be2708cc67e6c9bf337145961b5",
+  "text": "Step 3. Managed service. 340 thousand, plus about 20 thousand of review, plus 35 thousand of penalties. About 395 thousand."
+ },
+ {
+  "hash": "8b0f308c1b44e70ef4479d2eda9e6127d90cb6e2",
+  "text": "Step 4. So what. Software stays cheapest, and the gap widens: in-house costs grow about 75 percent with 46 percent more returns, while software grows about a third. Software scales best."
+ }
+]
